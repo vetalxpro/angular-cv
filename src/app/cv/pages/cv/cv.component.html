@@ -1,0 +1,29 @@
+<app-cv-header [cv]="cv">
+</app-cv-header>
+<div class="container" [@section]>
+  <app-cv-section [sectionName]="'Contacts'">
+    <app-contacts-list [contacts]="contacts">
+    </app-contacts-list>
+  </app-cv-section>
+  <app-cv-section [sectionName]="'Summary'">
+    <p>
+      {{cv.summary}}
+    </p>
+  </app-cv-section>
+  <app-cv-section [sectionName]="'Skills'">
+    <app-skills-list [skills]="cv.skills">
+    </app-skills-list>
+  </app-cv-section>
+  <app-cv-section [sectionName]="'Work'">
+    <app-works-list [works]="cv.work">
+    </app-works-list>
+  </app-cv-section>
+  <app-cv-section [sectionName]="'Education'">
+    <app-educations-list [educations]="cv.education">
+    </app-educations-list>
+  </app-cv-section>
+  <app-cv-section [sectionName]="'Languages'">
+    <app-languages-list [languages]="cv.languages">
+    </app-languages-list>
+  </app-cv-section>
+</div>

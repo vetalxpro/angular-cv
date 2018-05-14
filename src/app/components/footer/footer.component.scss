@@ -1,0 +1,14 @@
+@import "../../../styles/variables";
+
+footer {
+  color: $white;
+  background: $base-gradient;
+  font-size: 1rem;
+}
+
+.github-link {
+  font-size: inherit;
+  span {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+  <li class="" *ngFor="let contact of contacts">
+    <a class="d-inline-flex align-items-center text-nowrap"
+       target="_blank"
+       [href]="contact.link">
+      <i [class]="contact.icon"></i>
+      <span>{{contact.name}}</span></a>
+  </li>
+</ul>

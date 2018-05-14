@@ -1,0 +1,7 @@
+<ul class="list-unstyled">
+  <li *ngFor="let education of educations">
+    <div class="font-weight-bold name">{{education.name}}</div>
+    <div class="">{{education.level}}</div>
+    <div class="font-italic">{{education.startDate | date:'yyyy'}} - {{education.endDate | date:'yyyy'}}</div>
+  </li>
+</ul>

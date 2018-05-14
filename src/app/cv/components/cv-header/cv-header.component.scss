@@ -1,0 +1,24 @@
+@import "../../../../styles/variables";
+
+:host {
+  display: block;
+}
+
+header {
+  color: $white;
+  background: $base-gradient;
+  font-size: 1rem;
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #9c989a;
+  overflow: hidden;
+  border: 2px solid $gray-300;
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}

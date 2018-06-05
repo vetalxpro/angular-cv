@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   currentDate = new Date();
-  sourceLink = 'https://github.com/vetalxpro/cv-intersog';
+  sourceLink = 'https://github.com/vetalxpro/angular-cv';
 
   constructor() {
   }

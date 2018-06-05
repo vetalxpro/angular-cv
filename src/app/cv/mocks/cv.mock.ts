@@ -4,7 +4,7 @@ export const cv: Cv = {
   basics: {
     firstName: 'Vitalii',
     lastName: 'Doroshenko',
-    photo: '/assets/img/photo.png'
+    photo: './assets/img/photo.png'
   },
   location: {
     city: 'Odessa',
@@ -63,16 +63,26 @@ export const cv: Cv = {
     {
       name: 'Odessa National Telecommunications Academy',
       level: 'Master’s degree',
+      specialization: 'Telecommunication systems and networks',
       startDate: new Date(2005, 0),
       endDate: new Date(2010, 0)
     }
   ],
   work: [
     {
+      companyName: 'Internet company SANA+',
+      position: 'Technical administrator, billing system developer',
+      period: 'June 2010 - May 2017'
+    },
+    {
+      companyName: 'Freelance',
+      position: 'Web developer',
+      period: 'since September 2015'
+    },
+    {
       companyName: '482.solutions',
       position: 'Javascript developer',
-      startDate: new Date(2017, 9),
-      endDate: null
+      period: 'October 2017 - now'
     }
   ],
   interests: [],

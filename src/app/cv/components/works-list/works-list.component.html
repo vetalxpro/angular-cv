@@ -2,7 +2,7 @@
   <li *ngFor="let work of works">
     <div class="font-weight-bold name">{{work.companyName}}</div>
     <div class="">{{work.position}}</div>
-    <div class="dates">{{work.startDate | date:dateFormat}} - {{work.endDate?(work.endDate | date:dateFormat):'now'}}
+    <div class="dates">{{work.period}}
     </div>
   </li>
 </ul>

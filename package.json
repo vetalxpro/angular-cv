@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "server": "npm run build && http-server ./dist/angular-cv -p 8080",
-    "deploy": "ng build --prod --base-href '/angular-cv/'&& angular-cli-ghpages --dir dist/angular-cv"
+    "deploy": "ng build --prod --base-href /angular-cv/ && angular-cli-ghpages --dir dist/angular-cv"
   },
   "private": true,
   "dependencies": {

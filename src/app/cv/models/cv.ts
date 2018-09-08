@@ -19,6 +19,7 @@ export interface Cv {
     telegram: string,
     github: string;
     linkedin: string;
+    skype: string;
     twitter?: string;
     facebook?: string;
     vkontakte?: string;

@@ -14,8 +14,9 @@ export const cv: Cv = {
   contacts: {
     phone: '+38(097)146-09-23',
     email: 'vetalpro.exe@gmail.com',
-    telegram: 'https://t.me/vetalxpro',
-    github: 'https://github.com/vetalxpro',
+    telegram: 't.me/vetalxpro',
+    github: 'github.com/vetalxpro',
+    skype: 'vetaloptimus',
     linkedin: '',
     twitter: ''
   },
@@ -40,7 +41,7 @@ export const cv: Cv = {
     'Express.js',
     'Nest.js',
     'Version Control (Git)',
-    'Mocha, Jasmine, Jest',
+    'Mocha, Karma, Jasmine, Jest',
     'Web3.js, Ethereum',
     'Linux',
     'Docker'
@@ -74,10 +75,20 @@ export const cv: Cv = {
       position: 'Technical administrator, billing system developer',
       period: 'June 2010 - May 2017'
     },
+    // {
+    //   companyName: 'Freelance',
+    //   position: 'Web developer',
+    //   period: 'since September 2015'
+    // },
     {
-      companyName: 'Freelance',
-      position: 'Web developer',
-      period: 'since September 2015'
+      companyName: 'Commercial Application "PartyMaker" (Angular 4)',
+      position: 'Frontend developer',
+      period: 'since July 2017'
+    },
+    {
+      companyName: 'Commercial Application (AngularJS 1.6.x)',
+      position: 'Frontend developer',
+      period: 'since October 2017'
     },
     {
       companyName: '482.solutions',

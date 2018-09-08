@@ -50,14 +50,19 @@ export class CvComponent implements OnInit {
         link: `tel:${this.cv.contacts.phone}`
       },
       {
-        name: 'Github',
+        name: `${this.cv.contacts.github}`,
         icon: 'fab fa-github',
-        link: `${this.cv.contacts.github}`
+        link: `//${this.cv.contacts.github}`
       },
       {
-        name: 'Telegram',
+        name: `${this.cv.contacts.telegram}`,
         icon: 'fab fa-telegram',
-        link: `${this.cv.contacts.telegram}`
+        link: `//${this.cv.contacts.telegram}`
+      },
+      {
+        name: `${this.cv.contacts.skype}`,
+        icon: 'fab fa-skype',
+        link: `skype:${this.cv.contacts.skype}`
       }
     ];
   }

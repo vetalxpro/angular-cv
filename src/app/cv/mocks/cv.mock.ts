@@ -22,24 +22,22 @@ export const cv: Cv = {
   },
   summary: 'Front-end Developer with 2.5+ years of experience developing. Specializes in AngularJS/Angular2+, NodeJS, Express, MongoDB and responsive design.',
   skills: [
-    'HTML5',
+    'HTML5, CSS3',
+    'Bootstrap, SemanticUI, Materialize',
+    'LESS, SASS/SCSS',
     'Responsive Web Design',
-    'CSS3',
-    'JavaScript(ES6)',
+    'JavaScript(ES6), Typescript',
+    'jQuery',
     'OOP',
     'AJAX, Websockets',
-    'TypeScript',
-    'NodeJS',
-    'jQuery',
-    'AngularJS/Angular',
+    'AngularJS(1.x)/Angular2+',
     'React + Redux',
+    'Vue, VueX',
     'Webpack, Gulp',
     'Handlebars, Pug, EJS',
+    'NodeJS',
     'MongoDB',
-    'Bootstrap',
-    'LESS, SASS/SCSS',
-    'Express.js',
-    'Nest.js',
+    'Express.js, Nest.js',
     'Version Control (Git)',
     'Mocha, Karma, Jasmine, Jest',
     'Web3.js, Ethereum',
@@ -75,11 +73,6 @@ export const cv: Cv = {
       position: 'Technical administrator, billing system developer',
       period: 'June 2010 - May 2017'
     },
-    // {
-    //   companyName: 'Freelance',
-    //   position: 'Web developer',
-    //   period: 'since September 2015'
-    // },
     {
       companyName: 'Commercial Application "PartyMaker" (Angular 4)',
       position: 'Frontend developer',
@@ -93,7 +86,12 @@ export const cv: Cv = {
     {
       companyName: '482.solutions',
       position: 'Javascript developer',
-      period: 'October 2017 - now'
+      period: 'October 2017 - June 2017'
+    },
+    {
+      companyName: 'Attract Group',
+      position: 'Frontend developer',
+      period: 'June 2017 - now'
     }
   ],
   interests: [],

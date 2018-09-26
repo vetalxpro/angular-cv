@@ -74,6 +74,11 @@ export const cv: Cv = {
       period: 'June 2010 - May 2017'
     },
     {
+      companyName: 'Freelance',
+      position: 'Javascript Developer',
+      period: '2015 - 2017'
+    },
+    {
       companyName: 'Commercial Application "PartyMaker" (Angular 4)',
       position: 'Frontend developer',
       period: 'since July 2017'
@@ -86,7 +91,7 @@ export const cv: Cv = {
     {
       companyName: '482.solutions',
       position: 'Javascript developer',
-      period: 'October 2017 - June 2017'
+      period: 'September 2017 - June 2017'
     },
     {
       companyName: 'Attract Group',
